@@ -29,7 +29,7 @@ Go through these steps:
 1. Completely kill tmux and restart (`killall tmux`).
 1. Ensure every `@everforest.*` option is being set _before_
    the plugin is loaded. Loading occurs where you have `run` in your config file.
-1. Double check for typos. There are two "c"s and two "p"s in "everforest".
+1. Double check for typos. Make sure "everforest" is spelled correctly.
 1. Do not use `-o` to set options that begin with `@`. The `-o` flag means that
    the option will not be set if it has already been set. You do not need this
    in your config file.
