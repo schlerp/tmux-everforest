@@ -4,8 +4,8 @@ Want to install the color scheme and make tmux pastel? Great! Here's how.
 
 <!-- x-release-please-start-version -->
 ```bash
-mkdir -p ~/.config/tmux/plugins/catppuccin
-git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+mkdir -p ~/.config/tmux/plugins/everforest
+git clone https://github.com/schlerp/tmux-everforest.git ~/.config/tmux/plugins/everforest/tmux
 ```
 <!-- x-release-please-end -->
 
@@ -16,12 +16,12 @@ Using your favourite editor, edit the file `~/.tmux.conf`.
 It should look like this:
 
 ```bash
-set -g @catppuccin_flavor 'mocha'
+set -g @everforest_flavor 'dark_medium'
 
-run ~/.config/tmux/plugins/catppuccin/tmux/catppuccin.tmux
+run ~/.config/tmux/plugins/everforest/tmux/everforest.tmux
 ```
 
-This will load the catppuccin plugin and apply the defaults.
+This will load the everforest plugin and apply the defaults.
 To apply the changes to your configuration file, exit tmux completely
 and start it again. You can also run `tmux source ~/.tmux.conf`, but this may
 not work as well when changing options.
@@ -33,9 +33,9 @@ be a bit more colorful. Edit your tmux config again so it looks like this.
 
 ```bash
 # Pick a softer palette.
-set -g @catppuccin_flavor 'frappe'
+set -g @everforest_flavor 'dark_soft'
 
-run ~/.config/tmux/plugins/catppuccin/tmux/catppuccin.tmux
+run ~/.config/tmux/plugins/everforest/tmux/everforest.tmux
 
 # Make the status line more pleasant.
 set -g status-left ""
@@ -61,7 +61,7 @@ and right of the status line.
 The `#[]` syntax is an embedded style, similar to inline css.
 `fg=#{@thm_crust}` says "make the text the crust color". `@thm_crust` is a
 user option set by the plugin. It is created by the line
-`run ~/.config/tmux/plugins/catppuccin/tmux/catppuccin.tmux`, so if you try
+`run ~/.config/tmux/plugins/everforest/tmux/everforest.tmux`, so if you try
 and use colors before that line, it won't work. The `#S` is a special sequence
 that tmux replaces with the current session name. There are a long, long
 "[list of special sequences](https://man7.org/linux/man-pages/man1/tmux.1.html#FORMATS)"

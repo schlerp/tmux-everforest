@@ -1,6 +1,6 @@
 # User Defined Status Line Modules
 
-To create your own status line module that uses the catppuccin theme,
+To create your own status line module that uses the everforest theme,
 all you need to do is add it to the `status-left` or `status-right` options.
 
 You can add arbitrary things to the status line like so:
@@ -24,18 +24,18 @@ set -ag status-right "#[fg=#{@thm_fg},bg=#{@thm_mantle}] #(memory_pressure | awk
 
 ![Example of the custom ram module](../../assets/ram-example.webp)
 
-To use the status module formatting that catppuccin uses, do the following:
+To use the status module formatting that everforest uses, do the following:
 
 ```sh
-# In ~/.tmux.conf, before the catppuccin plugin has been loaded.
+# In ~/.tmux.conf, before the everforest plugin has been loaded.
 
 %hidden MODULE_NAME="my_custom_module"
 
-set -g "@catppuccin_${MODULE_NAME}_icon" " "
-set -gF "@catppuccin_${MODULE_NAME}_color" "#{E:@thm_pink}"
-set -g "@catppuccin_${MODULE_NAME}_text" "#{pane_current_command}"
+set -g "@everforest_${MODULE_NAME}_icon" " "
+set -gF "@everforest_${MODULE_NAME}_color" "#{E:@thm_pink}"
+set -g "@everforest_${MODULE_NAME}_text" "#{pane_current_command}"
 
-source "<path to catppuccin plugin>/utils/status_module.conf"
+source "<path to everforest plugin>/utils/status_module.conf"
 
-set -g status-right "#{E:@catppuccin_status_application}#{E:@catppuccin_status_my_custom_module}"
+set -g status-right "#{E:@everforest_status_application}#{E:@everforest_status_my_custom_module}"
 ```
