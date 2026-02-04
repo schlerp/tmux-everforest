@@ -1,1 +1,2 @@
-@catppuccin_status_application #[fg=#eba0ac]#[fg=#11111b,bg=#eba0ac] #[fg=#cdd6f4,bg=#313244]#{E:@catppuccin_application_text}#[fg=#313244]
+
+@everforest_status_application #[fg=#E67E80]#[fg=#232A2E,bg=#E67E80] #[fg=%03C6AA,bg=#343F44]#{E:@everforest_application_text}#[fg=#343F44] 
