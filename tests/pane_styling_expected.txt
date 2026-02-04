@@ -1,4 +1,8 @@
-pane-border-format #[fg=#a6e3a1,bg=default]█#[fg=#313244,bg=#a6e3a1]#{pane_index}#[fg=#a6e3a1,bg=#313244]█ #[fg=#a6e3a1,bg=#313244]#{b:pane_current_path}#[fg=#313244,bg=default]█
-pane-border-format #[fg=#313244,bg=default]█#[fg=#a6e3a1,bg=#313244]#{b:pane_current_path} #[fg=#a6e3a1,bg=#313244]█#[fg=#313244,bg=#a6e3a1]#{pane_index}#[fg=#a6e3a1,bg=default]█
-pane-border-format #[fg=#a6e3a1,bg=default]█#[fg=#313244,bg=#a6e3a1]#{pane_index}#[fg=#a6e3a1,bg=#313244]█ #[fg=#313244,bg=#a6e3a1]#{b:pane_current_path}#[fg=#a6e3a1,bg=default]█
-pane-border-format #[fg=#313244,bg=default]█#[fg=#cdd6f4,bg=#313244]#{pane_index}#[fg=#cdd6f4,bg=#313244]█ #[fg=#cdd6f4,bg=#313244]#{b:pane_current_path}#[fg=#313244,bg=default]█
+
+pane-border-format #[fg=#A7C080,bg=default]█#[fg=#343F44,bg=#A7C080]#{pane_index}#[fg=#A7C080,bg=#343F44]█ #[fg=#A7C080,bg=#343F44]#{b:pane_current_path}#[fg=#343F44,bg=default]█
+
+pane-border-format #[fg=#343F44,bg=default]█#[fg=#A7C080,bg=#343F44]#{b:pane_current_path} #[fg=#A7C080,bg=#343F44]█#[fg=#343F44,bg=#A7C080]#{pane_index}#[fg=#A7C080,bg=default]█
+
+pane-border-format #[fg=#A7C080,bg=default]█#[fg=#343F44,bg=#A7C080]#{pane_index}#[fg=#A7C080,bg=#343F44]█ #[fg=#343F44,bg=#A7C080]#{b:pane_current_path}#[fg=#A7C080,bg=default]█
+
+pane-border-format #[fg=#343F44,bg=default]█#[fg=#D3C6AA,bg=#343F44]#{pane_index}#[fg=#D3C6AA,bg=#343F44]█ #[fg=#D3C6AA,bg=#343F44]#{b:pane_current_path}#[fg=#343F44,bg=default]█

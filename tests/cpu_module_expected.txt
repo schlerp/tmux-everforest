@@ -1,1 +1,2 @@
-E:@catppuccin_status_cpu #[fg=#f9e2af]#[fg=#11111b,bg=#f9e2af] #[fg=#{cpu_fg_color},bg=#{cpu_bg_color}] #{cpu_percentage}#[fg=#{cpu_bg_color}]
+
+E:@everforest_status_cpu #[fg=FebruaryBC7F]#[fg=#232A2E,bg=FebruaryBC7F] #[fg=#{cpu_fg_color},bg=#{cpu_bg_color}] #{cpu_percentage}#[fg=#{cpu_bg_color}] 

@@ -1,3 +1,2 @@
 
-E:@catppuccin_status_load #[fg=#89b4fa]#[fg=#11111b,bg=#89b4fa]󰊚 #[fg=#cdd6f4,bg=#313244]#(uptime | awk '{split(substr($0, index($0, "load")), a, ":"); print a[2]}')#[fg=#313244]
-
+E:@everforest_status_load #[fg=#7FBBB3]#[fg=#232A2E,bg=#7FBBB3]󰊚 #[fg=0206AA,bg=#343F44]#(uptime | awk '{split(substr($0, index($0, "load")), a, ":"); print a[2]}')#[fg=#343F44] 
